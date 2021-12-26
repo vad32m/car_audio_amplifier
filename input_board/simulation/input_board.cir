@@ -7,8 +7,8 @@ Shape Version=11.00
 Screen=1680,1050
 MCAPVersion=12.2.0.3
 Key ID=Demo
-NLCnt=717
-TXCnt=16
+NLCnt=535
+TXCnt=12
 
 [shapedef]
 Name=Animated DPST Switch
@@ -120,7 +120,7 @@ Name=Ground
 Definition=Ground
 Shape=Ground
 Mask=1793
-Used=519
+Used=521
 memo=Ground
 Label Offset=0,0,0,0
 PinCnt=1
@@ -143,7 +143,7 @@ Name=Tie
 Definition=Tie
 Shape=Tie
 Mask=5632
-Used=423
+Used=426
 memo=Ties two nodes together
 Label Offset=11,-6,-6,8
 PinCnt=1
@@ -154,7 +154,7 @@ Name=MC33079
 Definition=Subckt
 Shape=Opamp5
 Mask=4224
-Used=100
+Used=102
 memo=On Semi
 Label Offset=35,57,-5,11
 PinCnt=5
@@ -169,7 +169,7 @@ Name=Resistor
 Definition=Resistor
 Shape=Resistor
 Mask=6401
-Used=593
+Used=595
 memo=Resistor
 Label Offset=18,6,8,11
 PinCnt=2
@@ -2753,537 +2753,12 @@ Pxs=1232,952,1296,952
 [Wire]
 Pxs=1296,944,1296,952
 
-[Comp]
-Name=MC33079
-Px=2472,1024
-
-[Attr]
-ON=47,-6,PART
-V=X50
-Style=8192
-
-[Attr]
-ON=35,71,NAME
-V=MC33079
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Comp]
-Name=Tie
-Px=2504,1016
-Rot=5
-
-[Attr]
-ON=-25,-24,PART
-V=VCC_9
-Style=8192
-
-[Wire]
-Pxs=2440,1072,2472,1072
-
-[Comp]
-Name=Capacitor
-Px=2472,1168
-Rot=4
-
-[Attr]
-ON=13,-23,PART
-V=C24
-Style=8192
-
-[Attr]
-ON=14,-36,CAPACITANCE
-V=47p
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Comp]
-Name=Tie
-Px=2440,1312
-Rot=7
-
-[Attr]
-ON=-33,12,PART
-V=HALF_VCC
-Style=8192
-
-[Comp]
-Name=MC33079
-Px=2840,1000
-
-[Attr]
-ON=47,-6,PART
-V=X51
-Style=8192
-
-[Attr]
-ON=35,71,NAME
-V=MC33079
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Comp]
-Name=Ground
-Px=2872,1056
-Rot=7
-
-[Comp]
-Name=Tie
-Px=2872,992
-Rot=5
-
-[Attr]
-ON=-25,-24,PART
-V=VCC_9
-Style=8192
-
-[Comp]
-Name=Ground
-Px=2504,1080
-Rot=7
-
-[Comp]
-Name=Resistor
-Px=2520,1224
-Rot=2
-
-[Attr]
-ON=-32,-25,PART
-V=R128
-Style=8192
-
-[Attr]
-ON=-39,-39,RESISTANCE
-V=10k
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Comp]
-Name=Resistor
-Px=2440,1264
-Rot=1
-
-[Attr]
-ON=-34,10,PART
-V=R129
-Style=8192
-
-[Attr]
-ON=-32,29,RESISTANCE
-V=30k
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Comp]
-Name=Resistor
-Px=2424,1024
-Rot=2
-
-[Attr]
-ON=-32,-25,PART
-V=R130
-Style=8192
-
-[Attr]
-ON=-39,-39,RESISTANCE
-V=10k
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Wire]
-Pxs=2440,1072,2440,1168
-
-[Wire]
-Pxs=2440,1168,2472,1168
-
-[Wire]
-Pxs=2520,1168,2576,1168
-
-[Wire]
-Pxs=2576,1048,2576,1072
-
-[Wire]
-Pxs=2544,1048,2576,1048
-
-[Wire]
-Pxs=2440,1168,2440,1224
-
-[Wire]
-Pxs=2440,1224,2472,1224
-
-[Wire]
-Pxs=2520,1224,2576,1224
-
-[Wire]
-Pxs=2576,1168,2576,1224
-
-[Wire]
-Pxs=2576,1048,2616,1048
-
-[Wire]
-Pxs=2424,1024,2456,1024
-
-[Comp]
-Name=Resistor
-Px=2760,1048
-Rot=2
-
-[Attr]
-ON=-32,-25,PART
-V=R131
-Style=8192
-
-[Attr]
-ON=-39,-39,RESISTANCE
-V=18k
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Comp]
-Name=Capacitor
-Px=2848,1136
-Rot=4
-
-[Attr]
-ON=13,-23,PART
-V=C30
-Style=8192
-
-[Attr]
-ON=14,-36,CAPACITANCE
-V=22n
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Comp]
-Name=Tie
-Px=2808,976
-Rot=5
-
-[Attr]
-ON=-32,-26,PART
-V=HALF_VCC
-Style=8192
-
-[Wire]
-Pxs=2808,976,2808,1000
-
-[Wire]
-Pxs=2808,1000,2840,1000
-
-[Wire]
-Pxs=2760,1048,2808,1048
-
-[Wire]
-Pxs=2664,1048,2712,1048
-
-[Wire]
-Pxs=2912,1024,2936,1024
-
-[Wire]
-Pxs=2896,1136,2936,1136
-
-[Wire]
-Pxs=2936,1024,2936,1056
-
-[Wire]
-Pxs=2936,1024,2968,1024
-
-[Wire]
-Pxs=2808,1048,2808,1136
-
-[Wire]
-Pxs=2808,1136,2848,1136
-
-[Wire]
-Pxs=2808,1048,2840,1048
-
-[Comp]
-Name=MC33079
-Px=3184,976
-
-[Attr]
-ON=47,-6,PART
-V=X52
-Style=8192
-
-[Attr]
-ON=35,71,NAME
-V=MC33079
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Comp]
-Name=Ground
-Px=3216,1032
-Rot=7
-
-[Comp]
-Name=Tie
-Px=3216,968
-Rot=5
-
-[Attr]
-ON=-25,-24,PART
-V=VCC_9
-Style=8192
-
-[Comp]
-Name=Resistor
-Px=3104,1024
-Rot=2
-
-[Attr]
-ON=-32,-25,PART
-V=R102
-Style=8192
-
-[Attr]
-ON=-39,-39,RESISTANCE
-V=18k
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Comp]
-Name=Capacitor
-Px=3192,1112
-Rot=4
-
-[Attr]
-ON=13,-23,PART
-V=C31
-Style=8192
-
-[Attr]
-ON=14,-36,CAPACITANCE
-V=22n
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Comp]
-Name=Tie
-Px=3152,952
-Rot=5
-
-[Attr]
-ON=-32,-26,PART
-V=HALF_VCC
-Style=8192
-
-[Wire]
-Pxs=3152,952,3152,976
-
-[Wire]
-Pxs=3152,976,3184,976
-
-[Wire]
-Pxs=3104,1024,3152,1024
-
-[Wire]
-Pxs=3256,1000,3280,1000
-
-[Wire]
-Pxs=3240,1112,3280,1112
-
-[Wire]
-Pxs=3152,1024,3152,1112
-
-[Wire]
-Pxs=3152,1112,3192,1112
-
-[Wire]
-Pxs=3152,1024,3184,1024
-
-[Wire]
-Pxs=3016,1024,3056,1024
-
-[Wire]
-Pxs=3280,1000,3280,1048
-
-[Comp]
-Name=Resistor
-Px=2912,1248
-Rot=2
-
-[Attr]
-ON=-32,-25,PART
-V=R103
-Style=8192
-
-[Attr]
-ON=-39,-39,RESISTANCE
-V=10k
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Wire]
-Pxs=2440,1224,2440,1248
-
-[Wire]
-Pxs=2440,1248,2864,1248
-
-[Wire]
-Pxs=2440,1248,2440,1264
-
-[Wire]
-Pxs=2912,1248,3280,1248
-
-[Wire]
-Pxs=3280,1112,3280,1248
-
-[Comp]
-Name=Resistor
-Px=2784,912
-Rot=2
-
-[Attr]
-ON=-32,-25,PART
-V=R104
-Style=8192
-
-[Attr]
-ON=-39,-39,RESISTANCE
-V=7.5k
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Wire]
-Pxs=2456,912,2736,912
-
-[Wire]
-Pxs=2456,912,2456,1024
-
-[Wire]
-Pxs=2456,1024,2472,1024
-
-[Wire]
-Pxs=2784,912,2936,912
-
-[Wire]
-Pxs=2936,912,2936,1024
-
-[Wire]
-Pxs=2576,1112,2656,1112
-
-[Wire]
-Pxs=2656,1112,2656,1424
-
-[Wire]
-Pxs=2576,1112,2576,1168
-
-[Wire]
-Pxs=3280,1048,3280,1112
-
-[Comp]
-Name=Pot
-Px=2616,1048
-
-[Attr]
-ON=32,4,PART
-V=X54
-Style=8192
-
-[Attr]
-ON=32,18,FILE
-V=Pot
-
-[Attr]
-ON=32,46,Param:POTSIZE
-V=100k
-
-[Attr]
-ON=32,60,Param:PERCENT
-V=SECOND_PERC
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Comp]
-Name=Pot
-Px=2968,1024
-
-[Attr]
-ON=32,4,PART
-V=X55
-Style=8192
-
-[Attr]
-ON=32,18,FILE
-V=Pot
-
-[Attr]
-ON=32,46,Param:POTSIZE
-V=100k
-
-[Attr]
-ON=32,60,Param:PERCENT
-V=SECOND_PERC
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Wire]
-Pxs=2992,1040,2992,1056
-
-[Wire]
-Pxs=2936,1056,2992,1056
-
-[Wire]
-Pxs=2936,1056,2936,1136
-
-[Wire]
-Pxs=2576,1072,2640,1072
-
-[Wire]
-Pxs=2640,1064,2640,1072
-
-[Wire]
-Pxs=2576,1072,2576,1112
-
 [Wire]
 Pxs=1232,992,1312,992
 
 [Comp]
 Name=Tie
-Px=4024,1816
+Px=2592,1816
 Rot=7
 
 [Attr]
@@ -3293,7 +2768,7 @@ Style=8192
 
 [Comp]
 Name=MC33079
-Px=4088,1744
+Px=2656,1744
 
 [Attr]
 ON=47,-6,PART
@@ -3310,12 +2785,12 @@ V
 
 [Comp]
 Name=Ground
-Px=4120,1800
+Px=2688,1800
 Rot=7
 
 [Comp]
 Name=Tie
-Px=4120,1736
+Px=2688,1736
 Rot=5
 
 [Attr]
@@ -3324,17 +2799,17 @@ V=VCC_9
 Style=8192
 
 [Wire]
-Pxs=4072,1792,4072,1840
+Pxs=2640,1792,2640,1840
 
 [Wire]
-Pxs=4160,1768,4184,1768
+Pxs=2728,1768,2752,1768
 
 [Wire]
-Pxs=4000,1744,4024,1744
+Pxs=2568,1744,2592,1744
 
 [Comp]
 Name=Resistor
-Px=4000,1744
+Px=2568,1744
 Rot=2
 
 [Attr]
@@ -3352,20 +2827,20 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=3936,1664,3936,1744
+Pxs=2504,1664,2504,1744
 
 [Wire]
-Pxs=3936,1744,3952,1744
+Pxs=2504,1744,2520,1744
 
 [Wire]
-Pxs=4128,1664,4184,1664
+Pxs=2696,1664,2752,1664
 
 [Wire]
-Pxs=4184,1664,4184,1768
+Pxs=2752,1664,2752,1768
 
 [Comp]
 Name=Resistor
-Px=3912,1744
+Px=2480,1744
 Rot=2
 
 [Attr]
@@ -3383,14 +2858,14 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=4072,1792,4088,1792
+Pxs=2640,1792,2656,1792
 
 [Wire]
-Pxs=4072,1840,4184,1840
+Pxs=2640,1840,2752,1840
 
 [Comp]
 Name=Capacitor
-Px=4024,1744
+Px=2592,1744
 Rot=7
 
 [Attr]
@@ -3408,11 +2883,11 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=4024,1744,4088,1744
+Pxs=2592,1744,2656,1744
 
 [Comp]
 Name=Capacitor
-Px=4080,1664
+Px=2648,1664
 Rot=4
 
 [Attr]
@@ -3430,17 +2905,17 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=3936,1664,4080,1664
+Pxs=2504,1664,2648,1664
 
 [Wire]
-Pxs=3912,1744,3936,1744
+Pxs=2480,1744,2504,1744
 
 [Wire]
-Pxs=4024,1792,4024,1816
+Pxs=2592,1792,2592,1816
 
 [Comp]
 Name=Resistor
-Px=4184,1776
+Px=2752,1776
 Rot=1
 
 [Attr]
@@ -3459,7 +2934,7 @@ V
 
 [Comp]
 Name=Resistor
-Px=4184,1864
+Px=2752,1864
 Rot=1
 
 [Attr]
@@ -3477,14 +2952,14 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=4184,1824,4184,1832
+Pxs=2752,1824,2752,1832
 
 [Wire]
-Pxs=4184,1912,4184,1920
+Pxs=2752,1912,2752,1920
 
 [Comp]
 Name=Tie
-Px=4184,1920
+Px=2752,1920
 Rot=7
 
 [Attr]
@@ -3493,17 +2968,17 @@ V=HALF_VCC
 Style=8192
 
 [Wire]
-Pxs=4184,1768,4184,1776
+Pxs=2752,1768,2752,1776
 
 [Wire]
-Pxs=4184,1840,4184,1864
+Pxs=2752,1840,2752,1864
 
 [Wire]
-Pxs=4184,1832,4184,1840
+Pxs=2752,1832,2752,1840
 
 [Comp]
 Name=Resistor
-Px=3784,1672
+Px=2352,1672
 Rot=1
 
 [Attr]
@@ -3521,17 +2996,11 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=2208,1560,3784,1560
-
-[Wire]
-Pxs=2192,1752,3624,1752
-
-[Wire]
-Pxs=3784,1560,3784,1672
+Pxs=2352,1560,2352,1672
 
 [Comp]
 Name=Resistor
-Px=3624,1752
+Px=2192,1752
 
 [Attr]
 ON=15,49,PART
@@ -3548,7 +3017,7 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=3784,1720,3784,1744
+Pxs=2352,1720,2352,1744
 
 [Comp]
 Name=MC33079
@@ -4066,522 +3535,6 @@ Pxs=1216,1832,1280,1832
 [Wire]
 Pxs=1280,1824,1280,1832
 
-[Comp]
-Name=MC33079
-Px=2456,1904
-
-[Attr]
-ON=47,-6,PART
-V=X63
-Style=8192
-
-[Attr]
-ON=35,71,NAME
-V=MC33079
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Comp]
-Name=Tie
-Px=2488,1896
-Rot=5
-
-[Attr]
-ON=-25,-24,PART
-V=VCC_9
-Style=8192
-
-[Wire]
-Pxs=2424,1952,2456,1952
-
-[Comp]
-Name=Capacitor
-Px=2456,2048
-Rot=4
-
-[Attr]
-ON=13,-23,PART
-V=C35
-Style=8192
-
-[Attr]
-ON=14,-36,CAPACITANCE
-V=47p
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Comp]
-Name=Tie
-Px=2424,2192
-Rot=7
-
-[Attr]
-ON=-33,12,PART
-V=HALF_VCC
-Style=8192
-
-[Comp]
-Name=MC33079
-Px=2824,1880
-
-[Attr]
-ON=47,-6,PART
-V=X64
-Style=8192
-
-[Attr]
-ON=35,71,NAME
-V=MC33079
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Comp]
-Name=Ground
-Px=2856,1936
-Rot=7
-
-[Comp]
-Name=Tie
-Px=2856,1872
-Rot=5
-
-[Attr]
-ON=-25,-24,PART
-V=VCC_9
-Style=8192
-
-[Comp]
-Name=Ground
-Px=2488,1960
-Rot=7
-
-[Comp]
-Name=Resistor
-Px=2504,2104
-Rot=2
-
-[Attr]
-ON=-32,-25,PART
-V=R141
-Style=8192
-
-[Attr]
-ON=-39,-39,RESISTANCE
-V=10k
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Comp]
-Name=Resistor
-Px=2424,2144
-Rot=1
-
-[Attr]
-ON=-34,10,PART
-V=R142
-Style=8192
-
-[Attr]
-ON=-32,29,RESISTANCE
-V=22k
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Comp]
-Name=Resistor
-Px=2408,1904
-Rot=2
-
-[Attr]
-ON=-32,-25,PART
-V=R143
-Style=8192
-
-[Attr]
-ON=-39,-39,RESISTANCE
-V=10k
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Wire]
-Pxs=2424,1952,2424,2048
-
-[Wire]
-Pxs=2424,2048,2456,2048
-
-[Wire]
-Pxs=2504,2048,2560,2048
-
-[Wire]
-Pxs=2560,1928,2560,1952
-
-[Wire]
-Pxs=2528,1928,2560,1928
-
-[Wire]
-Pxs=2424,2048,2424,2104
-
-[Wire]
-Pxs=2424,2104,2456,2104
-
-[Wire]
-Pxs=2504,2104,2560,2104
-
-[Wire]
-Pxs=2560,2048,2560,2104
-
-[Wire]
-Pxs=2560,1928,2600,1928
-
-[Wire]
-Pxs=2408,1904,2440,1904
-
-[Comp]
-Name=Resistor
-Px=2744,1928
-Rot=2
-
-[Attr]
-ON=-32,-25,PART
-V=R144
-Style=8192
-
-[Attr]
-ON=-39,-39,RESISTANCE
-V=18k
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Comp]
-Name=Capacitor
-Px=2832,2016
-Rot=4
-
-[Attr]
-ON=13,-23,PART
-V=C36
-Style=8192
-
-[Attr]
-ON=14,-36,CAPACITANCE
-V=22n
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Comp]
-Name=Tie
-Px=2792,1856
-Rot=5
-
-[Attr]
-ON=-32,-26,PART
-V=HALF_VCC
-Style=8192
-
-[Wire]
-Pxs=2792,1856,2792,1880
-
-[Wire]
-Pxs=2792,1880,2824,1880
-
-[Wire]
-Pxs=2744,1928,2792,1928
-
-[Wire]
-Pxs=2648,1928,2696,1928
-
-[Wire]
-Pxs=2896,1904,2920,1904
-
-[Wire]
-Pxs=2880,2016,2920,2016
-
-[Wire]
-Pxs=2920,1904,2920,1936
-
-[Wire]
-Pxs=2920,1904,2952,1904
-
-[Wire]
-Pxs=2792,1928,2792,2016
-
-[Wire]
-Pxs=2792,2016,2832,2016
-
-[Wire]
-Pxs=2792,1928,2824,1928
-
-[Comp]
-Name=MC33079
-Px=3168,1856
-
-[Attr]
-ON=47,-6,PART
-V=X65
-Style=8192
-
-[Attr]
-ON=35,71,NAME
-V=MC33079
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Comp]
-Name=Ground
-Px=3200,1912
-Rot=7
-
-[Comp]
-Name=Tie
-Px=3200,1848
-Rot=5
-
-[Attr]
-ON=-25,-24,PART
-V=VCC_9
-Style=8192
-
-[Comp]
-Name=Resistor
-Px=3088,1904
-Rot=2
-
-[Attr]
-ON=-32,-25,PART
-V=R145
-Style=8192
-
-[Attr]
-ON=-39,-39,RESISTANCE
-V=18k
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Comp]
-Name=Capacitor
-Px=3176,1992
-Rot=4
-
-[Attr]
-ON=13,-23,PART
-V=C37
-Style=8192
-
-[Attr]
-ON=14,-36,CAPACITANCE
-V=22n
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Comp]
-Name=Tie
-Px=3136,1832
-Rot=5
-
-[Attr]
-ON=-32,-26,PART
-V=HALF_VCC
-Style=8192
-
-[Wire]
-Pxs=3136,1832,3136,1856
-
-[Wire]
-Pxs=3136,1856,3168,1856
-
-[Wire]
-Pxs=3088,1904,3136,1904
-
-[Wire]
-Pxs=3240,1880,3264,1880
-
-[Wire]
-Pxs=3224,1992,3264,1992
-
-[Wire]
-Pxs=3136,1904,3136,1992
-
-[Wire]
-Pxs=3136,1992,3176,1992
-
-[Wire]
-Pxs=3136,1904,3168,1904
-
-[Wire]
-Pxs=3000,1904,3040,1904
-
-[Wire]
-Pxs=3264,1880,3264,1928
-
-[Comp]
-Name=Resistor
-Px=2896,2128
-Rot=2
-
-[Attr]
-ON=-32,-25,PART
-V=R146
-Style=8192
-
-[Attr]
-ON=-39,-39,RESISTANCE
-V=10k
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Wire]
-Pxs=2424,2104,2424,2128
-
-[Wire]
-Pxs=2424,2128,2848,2128
-
-[Wire]
-Pxs=2424,2128,2424,2144
-
-[Wire]
-Pxs=2896,2128,3264,2128
-
-[Wire]
-Pxs=3264,1992,3264,2128
-
-[Comp]
-Name=Resistor
-Px=2768,1792
-Rot=2
-
-[Attr]
-ON=-32,-25,PART
-V=R147
-Style=8192
-
-[Attr]
-ON=-39,-39,RESISTANCE
-V=7.5k
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Wire]
-Pxs=2440,1792,2720,1792
-
-[Wire]
-Pxs=2440,1792,2440,1904
-
-[Wire]
-Pxs=2440,1904,2456,1904
-
-[Wire]
-Pxs=2768,1792,2920,1792
-
-[Wire]
-Pxs=2920,1792,2920,1904
-
-[Wire]
-Pxs=2560,1952,2560,2048
-
-[Wire]
-Pxs=3264,1928,3264,1992
-
-[Comp]
-Name=Pot
-Px=2600,1928
-
-[Attr]
-ON=32,4,PART
-V=X67
-Style=8192
-
-[Attr]
-ON=32,18,FILE
-V=Pot
-
-[Attr]
-ON=32,46,Param:POTSIZE
-V=100k
-
-[Attr]
-ON=32,60,Param:PERCENT
-V=SECOND_PERC
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Comp]
-Name=Pot
-Px=2952,1904
-
-[Attr]
-ON=32,4,PART
-V=X68
-Style=8192
-
-[Attr]
-ON=32,18,FILE
-V=Pot
-
-[Attr]
-ON=32,46,Param:POTSIZE
-V=100k
-
-[Attr]
-ON=32,60,Param:PERCENT
-V=SECOND_PERC
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Wire]
-Pxs=2976,1920,2976,1936
-
-[Wire]
-Pxs=2920,1936,2976,1936
-
-[Wire]
-Pxs=2920,1936,2920,2016
-
-[Wire]
-Pxs=2560,1952,2624,1952
-
-[Wire]
-Pxs=2624,1944,2624,1952
-
 [Wire]
 Pxs=936,1784,1016,1784
 
@@ -4589,14 +3542,14 @@ Pxs=936,1784,1016,1784
 Pxs=936,904,1032,904
 
 [Wire]
-Pxs=3784,1744,3864,1744
+Pxs=2352,1744,2432,1744
 
 [Wire]
 Pxs=1232,992,1232,1048
 
 [Comp]
 Name=MC33079
-Px=4352,1840
+Px=2920,1840
 
 [Attr]
 ON=47,-6,PART
@@ -4613,12 +3566,12 @@ V
 
 [Comp]
 Name=Ground
-Px=4384,1896
+Px=2952,1896
 Rot=7
 
 [Comp]
 Name=Tie
-Px=4384,1832
+Px=2952,1832
 Rot=5
 
 [Attr]
@@ -4627,23 +3580,23 @@ V=VCC_9
 Style=8192
 
 [Wire]
-Pxs=4336,1888,4336,1936
+Pxs=2904,1888,2904,1936
 
 [Wire]
-Pxs=4424,1864,4448,1864
+Pxs=2992,1864,3016,1864
 
 [Wire]
-Pxs=4336,1888,4352,1888
+Pxs=2904,1888,2920,1888
 
 [Wire]
-Pxs=4336,1936,4448,1936
+Pxs=2904,1936,3016,1936
 
 [Wire]
-Pxs=4448,1864,4448,1928
+Pxs=3016,1864,3016,1928
 
 [Comp]
 Name=MC33079
-Px=4416,1640
+Px=2984,1640
 
 [Attr]
 ON=47,-6,PART
@@ -4660,12 +3613,12 @@ V
 
 [Comp]
 Name=Ground
-Px=4448,1696
+Px=3016,1696
 Rot=7
 
 [Comp]
 Name=Tie
-Px=4448,1632
+Px=3016,1632
 Rot=5
 
 [Attr]
@@ -4674,20 +3627,20 @@ V=VCC_9
 Style=8192
 
 [Wire]
-Pxs=4400,1688,4400,1768
+Pxs=2968,1688,2968,1768
 
 [Wire]
-Pxs=4488,1664,4512,1664
+Pxs=3056,1664,3080,1664
 
 [Wire]
-Pxs=4400,1688,4416,1688
+Pxs=2968,1688,2984,1688
 
 [Wire]
-Pxs=4512,1664,4512,1704
+Pxs=3080,1664,3080,1704
 
 [Comp]
 Name=Resistor
-Px=4368,1768
+Px=2936,1768
 Rot=2
 
 [Attr]
@@ -4706,7 +3659,7 @@ V
 
 [Comp]
 Name=Tie
-Px=4376,1632
+Px=2944,1632
 Rot=5
 
 [Attr]
@@ -4716,7 +3669,7 @@ Style=8192
 
 [Comp]
 Name=Resistor
-Px=4480,1768
+Px=3048,1768
 Rot=2
 
 [Attr]
@@ -4734,212 +3687,37 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=4480,1768,4512,1768
+Pxs=3048,1768,3080,1768
 
 [Wire]
-Pxs=4400,1768,4432,1768
+Pxs=2968,1768,3000,1768
 
 [Wire]
-Pxs=4368,1768,4400,1768
+Pxs=2936,1768,2968,1768
 
 [Wire]
-Pxs=4376,1640,4416,1640
+Pxs=2944,1640,2984,1640
 
 [Wire]
-Pxs=4376,1632,4376,1640
+Pxs=2944,1632,2944,1640
 
 [Wire]
-Pxs=4512,1704,4512,1768
+Pxs=3080,1704,3080,1768
 
 [Wire]
-Pxs=4448,1928,4448,1936
+Pxs=3016,1928,3016,1936
 
 [Wire]
-Pxs=2208,992,2208,1024
+Pxs=2208,992,2208,1560
 
 [Wire]
 Pxs=1936,992,2208,992
-
-[Wire]
-Pxs=2208,1024,2376,1024
-
-[Wire]
-Pxs=2208,1024,2208,1560
 
 [Wire]
 Pxs=2192,1752,2192,1872
 
 [Wire]
 Pxs=1920,1872,2192,1872
-
-[Wire]
-Pxs=2192,1904,2360,1904
-
-[Wire]
-Pxs=2192,1872,2192,1904
-
-[Comp]
-Name=MC33079
-Px=3448,1112
-
-[Attr]
-ON=47,-6,PART
-V=X72
-Style=8192
-
-[Attr]
-ON=35,71,NAME
-V=MC33079
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Comp]
-Name=Ground
-Px=3480,1168
-Rot=7
-
-[Comp]
-Name=Tie
-Px=3480,1104
-Rot=5
-
-[Attr]
-ON=-25,-24,PART
-V=VCC_9
-Style=8192
-
-[Wire]
-Pxs=3432,1160,3432,1208
-
-[Wire]
-Pxs=3520,1136,3544,1136
-
-[Wire]
-Pxs=3432,1160,3448,1160
-
-[Wire]
-Pxs=3432,1208,3544,1208
-
-[Wire]
-Pxs=3544,1136,3544,1200
-
-[Comp]
-Name=MC33079
-Px=3504,928
-
-[Attr]
-ON=47,-6,PART
-V=X73
-Style=8192
-
-[Attr]
-ON=35,71,NAME
-V=MC33079
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Comp]
-Name=Ground
-Px=3536,984
-Rot=7
-
-[Comp]
-Name=Tie
-Px=3536,920
-Rot=5
-
-[Attr]
-ON=-25,-24,PART
-V=VCC_9
-Style=8192
-
-[Wire]
-Pxs=3488,976,3488,1056
-
-[Wire]
-Pxs=3576,952,3600,952
-
-[Wire]
-Pxs=3488,976,3504,976
-
-[Wire]
-Pxs=3600,952,3600,992
-
-[Comp]
-Name=Resistor
-Px=3456,1056
-Rot=2
-
-[Attr]
-ON=-32,-25,PART
-V=R154
-Style=8192
-
-[Attr]
-ON=-39,-39,RESISTANCE
-V=10k
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Comp]
-Name=Tie
-Px=3464,920
-Rot=5
-
-[Attr]
-ON=-29,-30,PART
-V=HALF_VCC
-Style=8192
-
-[Comp]
-Name=Resistor
-Px=3568,1056
-Rot=2
-
-[Attr]
-ON=-32,-25,PART
-V=R155
-Style=8192
-
-[Attr]
-ON=-39,-39,RESISTANCE
-V=10k
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Wire]
-Pxs=3568,1056,3600,1056
-
-[Wire]
-Pxs=3488,1056,3520,1056
-
-[Wire]
-Pxs=3456,1056,3488,1056
-
-[Wire]
-Pxs=3464,928,3504,928
-
-[Wire]
-Pxs=3464,920,3464,928
-
-[Wire]
-Pxs=3280,1112,3392,1112
-
-[Wire]
-Pxs=3600,992,3600,1056
-
-[Wire]
-Pxs=3544,1200,3544,1208
 
 [Comp]
 Name=MC33079
@@ -5104,9 +3882,42 @@ Pxs=1832,1240,1832,1304
 [Wire]
 Pxs=1576,1400,1576,1408
 
+[Wire]
+Pxs=2240,1752,2352,1752
+
+[Wire]
+Pxs=2352,1744,2352,1752
+
+[Wire]
+Pxs=2888,1840,2920,1840
+
+[Wire]
+Pxs=2888,1768,2888,1840
+
+[Wire]
+Pxs=2752,1768,2888,1768
+
+[Wire]
+Pxs=1608,1304,1640,1304
+
+[Wire]
+Pxs=1608,1240,1608,1304
+
+[Wire]
+Pxs=1424,1240,1608,1240
+
+[Wire]
+Pxs=1424,1240,1424,1312
+
+[Wire]
+Pxs=1424,1312,1480,1312
+
+[Wire]
+Pxs=2208,1560,2352,1560
+
 [Comp]
 Name=MC33079
-Px=2824,1424
+Px=2480,1120
 
 [Attr]
 ON=47,-6,PART
@@ -5123,12 +3934,12 @@ V
 
 [Comp]
 Name=Ground
-Px=2856,1480
+Px=2512,1176
 Rot=7
 
 [Comp]
 Name=Tie
-Px=2856,1416
+Px=2512,1112
 Rot=5
 
 [Attr]
@@ -5137,23 +3948,23 @@ V=VCC_9
 Style=8192
 
 [Wire]
-Pxs=2808,1472,2808,1520
+Pxs=2464,1168,2464,1216
 
 [Wire]
-Pxs=2896,1448,2920,1448
+Pxs=2552,1144,2576,1144
 
 [Wire]
-Pxs=2808,1472,2824,1472
+Pxs=2464,1168,2480,1168
 
 [Wire]
-Pxs=2808,1520,2920,1520
+Pxs=2464,1216,2576,1216
 
 [Wire]
-Pxs=2920,1448,2920,1512
+Pxs=2576,1144,2576,1208
 
 [Comp]
 Name=MC33079
-Px=3104,1312
+Px=2736,984
 
 [Attr]
 ON=47,-6,PART
@@ -5170,12 +3981,12 @@ V
 
 [Comp]
 Name=Ground
-Px=3136,1368
+Px=2768,1040
 Rot=7
 
 [Comp]
 Name=Tie
-Px=3136,1304
+Px=2768,976
 Rot=5
 
 [Attr]
@@ -5184,20 +3995,20 @@ V=VCC_9
 Style=8192
 
 [Wire]
-Pxs=3088,1360,3088,1440
+Pxs=2720,1032,2720,1112
 
 [Wire]
-Pxs=3176,1336,3200,1336
+Pxs=2808,1008,2832,1008
 
 [Wire]
-Pxs=3088,1360,3104,1360
+Pxs=2720,1032,2736,1032
 
 [Wire]
-Pxs=3200,1336,3200,1376
+Pxs=2832,1008,2832,1048
 
 [Comp]
 Name=Resistor
-Px=3056,1440
+Px=2688,1112
 Rot=2
 
 [Attr]
@@ -5216,7 +4027,7 @@ V
 
 [Comp]
 Name=Tie
-Px=3064,1304
+Px=2696,976
 Rot=5
 
 [Attr]
@@ -5226,7 +4037,7 @@ Style=8192
 
 [Comp]
 Name=Resistor
-Px=3168,1440
+Px=2800,1112
 Rot=2
 
 [Attr]
@@ -5244,82 +4055,52 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=3168,1440,3200,1440
+Pxs=2800,1112,2832,1112
 
 [Wire]
-Pxs=3088,1440,3120,1440
+Pxs=2720,1112,2752,1112
 
 [Wire]
-Pxs=3056,1440,3088,1440
+Pxs=2688,1112,2720,1112
 
 [Wire]
-Pxs=3064,1312,3104,1312
+Pxs=2696,984,2736,984
 
 [Wire]
-Pxs=3064,1304,3064,1312
+Pxs=2696,976,2696,984
 
 [Wire]
-Pxs=2656,1424,2768,1424
+Pxs=2312,1120,2424,1120
 
 [Wire]
-Pxs=3200,1376,3200,1440
+Pxs=2832,1048,2832,1112
 
 [Wire]
-Pxs=2920,1512,2920,1520
+Pxs=2576,1208,2576,1216
 
 [Wire]
-Pxs=3672,1752,3784,1752
+Pxs=2608,1112,2640,1112
 
 [Wire]
-Pxs=3784,1744,3784,1752
+Pxs=2608,1048,2608,1112
 
 [Wire]
-Pxs=4320,1840,4352,1840
+Pxs=2424,1048,2608,1048
 
 [Wire]
-Pxs=4320,1768,4320,1840
+Pxs=2424,1048,2424,1120
 
 [Wire]
-Pxs=4184,1768,4320,1768
+Pxs=2424,1120,2480,1120
 
 [Wire]
-Pxs=3392,1056,3408,1056
+Pxs=2208,992,2312,992
 
 [Wire]
-Pxs=3392,1056,3392,1112
-
-[Wire]
-Pxs=3392,1112,3448,1112
-
-[Wire]
-Pxs=3008,1336,3008,1440
-
-[Wire]
-Pxs=2768,1336,3008,1336
-
-[Wire]
-Pxs=2768,1336,2768,1424
-
-[Wire]
-Pxs=2768,1424,2824,1424
-
-[Wire]
-Pxs=1608,1304,1640,1304
-
-[Wire]
-Pxs=1608,1240,1608,1304
-
-[Wire]
-Pxs=1424,1240,1608,1240
-
-[Wire]
-Pxs=1424,1240,1424,1312
-
-[Wire]
-Pxs=1424,1312,1480,1312
+Pxs=2312,992,2312,1120
 
 [Grid Text]
-Text=".define FREQ 2.25K"
+Text=".define FREQ 8K"
 Px=128,464
 GridSnap=True
 JustifyH=Left
@@ -5351,16 +4132,8 @@ JustifyV=Bottom
 CBorder=None
 
 [Grid Text]
-Text="lo"
-Px=3280,1048
-GridSnap=True
-JustifyH=Left
-JustifyV=Bottom
-CBorder=None
-
-[Grid Text]
 Text="lfe"
-Px=4184,1832
+Px=2752,1832
 GridSnap=True
 JustifyH=Left
 JustifyV=Bottom
@@ -5375,16 +4148,8 @@ JustifyV=Bottom
 CBorder=None
 
 [Grid Text]
-Text="lo1"
-Px=3264,1928
-GridSnap=True
-JustifyH=Left
-JustifyV=Bottom
-CBorder=None
-
-[Grid Text]
 Text="lfe_p"
-Px=4512,1704
+Px=3080,1704
 GridSnap=True
 JustifyH=Left
 JustifyV=Bottom
@@ -5392,23 +4157,7 @@ CBorder=None
 
 [Grid Text]
 Text="lfe_n"
-Px=4448,1928
-GridSnap=True
-JustifyH=Left
-JustifyV=Bottom
-CBorder=None
-
-[Grid Text]
-Text="lo_p"
-Px=3600,992
-GridSnap=True
-JustifyH=Left
-JustifyV=Bottom
-CBorder=None
-
-[Grid Text]
-Text="lo_n"
-Px=3544,1200
+Px=3016,1928
 GridSnap=True
 JustifyH=Left
 JustifyV=Bottom
@@ -5431,16 +4180,16 @@ JustifyV=Bottom
 CBorder=None
 
 [Grid Text]
-Text="mid_n"
-Px=3200,1376
+Text="lomid_n"
+Px=2832,1048
 GridSnap=True
 JustifyH=Left
 JustifyV=Bottom
 CBorder=None
 
 [Grid Text]
-Text="mid_p"
-Px=2920,1512
+Text="lomid_p"
+Px=2576,1208
 GridSnap=True
 JustifyH=Left
 JustifyV=Bottom
@@ -5642,9 +4391,9 @@ PrinterScale=1
 Scale 0=1
 Scale 1=1
 Scale 2=1
-SB 3=0,812
+SB 3=968,832
 Scale 3=1.3333333333333333
-Px=1268,1140
+Px=97,900
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Anchor Color=#000000
@@ -5995,7 +4744,7 @@ ALIGNBOTTOM=No
 
 [APage]
 Analysis=Transient
-Name="Main"
+Name="MAIN"
 
 [AC]
 WinID=2
@@ -7665,10 +6414,10 @@ Plt=1
 AliasID=2
 XExp=T
 YExp=v(lfe)
-XRng=0.04
+XRng=0.025
 YRng=AutoAlways
 Options=LINEARX,LINEARY
-Range Grid X=0.008
+Range Grid X=0.005
 Enable=Enable
 Line Color=#FF0000
 Text Color=#FF0000
@@ -7689,11 +6438,11 @@ Analysis=Transient
 Plt=1
 AliasID=3
 XExp=T
-YExp=v(30)
-XRng=0.04
+YExp=v(lomid_p)
+XRng=0.025
 YRng=AutoAlways
 Options=LINEARX,LINEARY
-Range Grid X=0.008
+Range Grid X=0.005
 Enable=Enable
 Line Color=#008000
 Text Color=#008000
@@ -7714,11 +6463,11 @@ Analysis=Transient
 Plt=1
 AliasID=4
 XExp=T
-YExp=v(out_full)
-XRng=0.04
+YExp=v(hi_p)
+XRng=0.025
 YRng=AutoAlways
 Options=LINEARX,LINEARY
-Range Grid X=0.008
+Range Grid X=0.005
 Enable=Enable
 Line Color=#FF00FF
 Text Color=#FF00FF
@@ -7757,7 +6506,7 @@ Analysis=AC
 Plt=1
 AliasID=1
 XExp=F
-YExp=dB(v(lo_p))
+YExp=dB(v(lomid_p))
 XRng=40000,10
 YRng=AutoAlways
 Options=LINEARY
@@ -7811,7 +6560,7 @@ Analysis=AC
 Plt=2
 AliasID=6
 XExp=F
-YExp=ph(v(lo_p))
+YExp=ph(v(lomid_p))
 XRng=40000,10
 YRng=AutoAlways
 Options=LINEARY
@@ -7870,7 +6619,7 @@ XRng=40000,10
 YRng=AutoAlways
 Options=LINEARY
 Range Grid X=7998
-Enable=Enable
+Enable=DontRun
 CS=Normal
 Line Color=#FF0000
 Text Color=#FF0000
@@ -7897,7 +6646,7 @@ XRng=40000,10
 YRng=AutoAlways
 Options=LINEARY
 Range Grid X=7998
-Enable=Enable
+Enable=DontRun
 CS=Normal
 Line Color=#FF0000
 Text Color=#FF0000
@@ -7951,7 +6700,7 @@ XRng=40000,10
 YRng=AutoAlways
 Options=LINEARY
 Range Grid X=7998
-Enable=Enable
+Enable=Hide
 CS=Normal
 Line Color=#006200
 Text Color=#006200
